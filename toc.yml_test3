@@ -1,0 +1,6 @@
+- name: Home
+  href: index.md
+  homepage: index.md
+- name: Docs
+  href: Content_Portal/
+  topicHref: Content_Portal/OCS_Content_Portal_Overview.md
