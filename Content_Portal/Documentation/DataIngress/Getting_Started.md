@@ -23,7 +23,7 @@ Procedure
 
 2.  Click the navigation icon
 
-    ![](media/ba3d13d4f4235e3c7df9cac6f633a5c4.png)
+    ![](images/CopyUrlLink.png)
 
     and click **Asset Explorer** (under Visualization). The Asset Explorer
     displays the defined assets.
@@ -31,11 +31,11 @@ Procedure
 >   Note: Click on the icons to toggle between the card and table views of the
 >   assets.
 
-![](media/a1e6f1a871fbaec94f6eca12db0a7c11.png)
+![](images/CopyUrlLink.png?raw=true)
 
 >   A picture containing clock Description automatically generated
 
-1.  Scan through the assets and identify any assets with a yellow or red dot.
+3.  Scan through the assets and identify any assets with a yellow or red dot.
 
 >   A yellow dot indicates ...
 
@@ -45,7 +45,7 @@ Procedure
 
 >   A screenshot of a cell phone Description automatically generated
 
-1.  Click on the asset to open the Asset Details pane and display the asset’s
+4.  Click on the asset to open the Asset Details pane and display the asset’s
     attributes.
 
 >   Attributes are metadata associated with the asset.
@@ -54,7 +54,7 @@ Procedure
 
 >   A screenshot of a cell phone Description automatically generated
 
-1.  Click the **Measurements** tab.
+5.  Click the **Measurements** tab.
 
 >   The Asset Details pane displays the following:
 
@@ -66,14 +66,14 @@ Procedure
 
 >   A screenshot of a cell phone Description automatically generated
 
-1.  Select one or more of the measurements which you think might be the cause
+6.  Select one or more of the measurements which you think might be the cause
     for the warning.
 
-2.  Review the history of the selected measurements in the trend to see if the
+7.  Review the history of the selected measurements in the trend to see if the
     data suggests you have identified a potential cause. The trend shows the
     measurements for the last 8-hour period.
 
-3.  Click the **View full trend** icon
+8.  Click the **View full trend** icon
 
     ![](media/dcbf072a3ceb5b2d953cea2852edb128.png)
 
@@ -101,7 +101,7 @@ Procedure
 
 -   The Legend table shows the statistics for each trace.
 
-1.  Click on a trace to select it.
+9.  Click on a trace to select it.
 
 >   The trace is highlighted, and two cursors automatically mark the minimum and
 >   maximum values for the displayed time range.
@@ -114,14 +114,14 @@ Procedure
 >   Click the plus sign (+) above the trace to lock the cursor in place. The “+”
 >   turns into an “x.” Click the “x” to unlock the cursor.
 
-1.  Click **Step backward** to move the time range 8 hours back or **Step
+10.  Click **Step backward** to move the time range 8 hours back or **Step
     forward** to move it 8 hours forward.
 
 ![](media/c77255e15da02b42035694fba4abc638.png)
 
 >   A screenshot of a cell phone Description automatically generated
 
-1.  Click the link
+11.  Click the link
 
     ![](media/fd189a762748d8375f18cedbe35c0a6e.png)
 
