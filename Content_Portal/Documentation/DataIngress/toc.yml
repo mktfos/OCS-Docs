@@ -6,3 +6,5 @@
   href: OMF_Ingress_Topics.md
 - name: Subscriptions
   href: OMF_Ingress_Subscriptions.md
+  name: Getting Started with Remote Operations Monitoring
+  href: Getting_Started.md
