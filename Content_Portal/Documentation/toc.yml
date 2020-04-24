@@ -1,5 +1,5 @@
 - name: OSIsoft Cloud Services 
-  topicHref: OSIsoft_Cloud_Services.md
+  href: OSIsoft_Cloud_Services.md
 - name: Account Management
   href: Management/toc.yml
   topicHref: Management/Management_Overview.md
@@ -13,7 +13,7 @@
   href: DataIngress/toc.yml
   topicHref: DataIngress/Data_Ingress.md
 - name: Metadata Rules (Preview)
-  topicHref: Metadata/Metadata_Rules_Overview.md
+  href: Metadata/Metadata_Rules_Overview.md
 - name: Data Views (Preview)
   href: DataViews/toc.yml
   topicHref: DataViews/Data_Views_Overview.md
@@ -21,8 +21,8 @@
   href: Operations/toc.yml
   topicHref: Operations/Operations_Overview.md
 - name: Role-Based Access Control
-  topicHref: Access_Control.md
+  href: Access_Control.md
 - name: Samples
-  topicHref: samples.md
+  href: samples.md
 - name: Getting Support
-  topicHref: support.md
+  href: support.md
