@@ -23,25 +23,25 @@ Procedure
 
 2.  Click the navigation icon
 
-    ![](images/CopyUrlLink.png)
+    ![Copy URL](images/CopyUrlLink.png)
 
     and click **Asset Explorer** (under Visualization). The Asset Explorer
     displays the defined assets.
 
->   Note: Click on the icons to toggle between the card and table views of the
->   assets.
+  >   Note: Click on the icons to toggle between the card and table views of the
+  >   assets.
 
-![](images/CopyUrlLink.png?raw=true)
+    ![](images/CopyUrlLink.png?raw=true)
 
->   A picture containing clock Description automatically generated
+  >   A picture containing clock Description automatically generated
 
 3.  Scan through the assets and identify any assets with a yellow or red dot.
 
->   A yellow dot indicates ...
+  >   A yellow dot indicates ...
 
->   Note: Use the Search box to filter the list of assets displayed.
+  >   Note: Use the Search box to filter the list of assets displayed.
 
-![](media/2eea234ef83425d3379c915a67938949.png)
+    ![](media/2eea234ef83425d3379c915a67938949.png)
 
 >   A screenshot of a cell phone Description automatically generated
 
