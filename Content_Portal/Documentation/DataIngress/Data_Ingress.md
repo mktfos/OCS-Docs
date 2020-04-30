@@ -12,6 +12,7 @@ in this and subsequent sections:
 - Messages are sent to a queue called a *Topic*. 
 - A *Subscription* receives messages from a Topic and writes them to the Sequential Data Store.
 
+![CopyUrlLink](images/CopyUrlLink.png)
 
 This is a test to see if this change appears when I generate the web site.
 Here is another change.
