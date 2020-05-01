@@ -11,7 +11,7 @@ customers. With remote monitoring, he reviews the status of the trucks each day,
 identifies trucks with problems, uses the data collected on different
 measurements to identify possible causes, reviews the history of these
 measurements over time, and shares the information with colleagues in the field
-who can follow up on the problem.
+who can follow up on the problem. ![Copy URL](images/CopyUrlLink.png)
 
 The following procedure describes how you use the OCS visualization tools to
 perform remote operations monitoring.
@@ -21,11 +21,7 @@ Procedure
 
 1.  Log in to OSIsoft Cloud Services.
 
-2.  Click the navigation icon
-
-    ![Copy URL](images/CopyUrlLink.png)
-
-    and click **Asset Explorer** (under Visualization). The Asset Explorer
+2.  Click the navigation icon ![Copy URL](images/CopyUrlLink.png) and click **Asset Explorer** (under Visualization). The Asset Explorer
     displays the defined assets.
 
   >   Note: Click on the icons to toggle between the card and table views of the
