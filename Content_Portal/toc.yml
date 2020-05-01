@@ -1,7 +1,13 @@
 - name: OSIsoft Cloud Services Content Portal 
   href: OCS_Content_Portal_Overview.md
-- name: Concepts
-  href: Concepts/Concepts_Overview.md
+- name: Quickstarts
+  topicHref: Quickstarts/Quickstarts.md
+- name: How-to Guides
+  topicHref: How_To_Guides/How_To_Guides.md
 - name: API Reference
   href: Documentation/toc.yml
+- name: Developer_Guides
+  topicHref: Developer_Guides/Developer_Guides.md
   topicHref: Documentation/OSIsoft_Cloud_Services.md
+- name: Concepts
+  topicHref: Concepts/Concepts_Overview.md
