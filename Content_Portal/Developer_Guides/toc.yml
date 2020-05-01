@@ -1,0 +1,8 @@
+- name: Introduction to Defining a Data View 
+  topicHref: Introduction_Define_a_Data_View.md
+- name: Quickstart Defining a Data View
+  topicHref: Quick_Start_Define_a_Data_View.md
+- name: Introduction to Getting Data View Data
+  topicHref: Introduction_Get_Data_View_Data.md
+- name: Quick Start Getting Data View Data
+  topicHref: Quick_Start_Get_Data_View_Data.md
