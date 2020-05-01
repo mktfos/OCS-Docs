@@ -6,8 +6,8 @@
   topicHref: How_To_Guides/How_To_Guides.md
 - name: API Reference
   href: Documentation/toc.yml
+  topicHref: Documentation/OSIsoft_Cloud_Services.md
 - name: Developer_Guides
   topicHref: Developer_Guides/Developer_Guides.md
-  topicHref: Documentation/OSIsoft_Cloud_Services.md
 - name: Concepts
   topicHref: Concepts/Concepts_Overview.md
