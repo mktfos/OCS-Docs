@@ -1,6 +1,7 @@
 - name: OSIsoft Cloud Services Content Portal 
   href: OCS_Content_Portal_Overview.md
 - name: Quickstarts
+  href: Quickstarts/toc.yml
   topicHref: Quickstarts/Quickstarts.md
 - name: How-to Guides
   topicHref: How_To_Guides/How_To_Guides.md
