@@ -1,2 +1,6 @@
 - name: Getting Started with Remote Operations Monitoring 
   topicHref: Getting_Started.md
+- name: Using the OMF Editor
+  topicHref: Using_the_OMF_Editor.md
+- name: Using the API Console
+  topicHref: Using_the_API_Console.md
