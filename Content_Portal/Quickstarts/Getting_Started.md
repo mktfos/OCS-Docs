@@ -11,7 +11,11 @@ customers. With remote monitoring, he reviews the status of the trucks each day,
 identifies trucks with problems, uses the data collected on different
 measurements to identify possible causes, reviews the history of these
 measurements over time, and shares the information with colleagues in the field
-who can follow up on the problem. ![Copy URL](images/CopyUrlLink.png)
+who can follow up on the problem.
+
+![Copy URL](media/fd189a762748d8375f18cedbe35c0a6e.png)
+
+Copy URL
 
 The following procedure describes how you use the OCS visualization tools to
 perform remote operations monitoring.
@@ -21,36 +25,44 @@ Procedure
 
 1.  Log in to OSIsoft Cloud Services.
 
-2.  Click the navigation icon ![Copy URL](images/CopyUrlLink.png) and click **Asset Explorer** (under Visualization). The Asset Explorer
+2.  Click the navigation icon
+
+![Copy URL](media/fd189a762748d8375f18cedbe35c0a6e.png)
+
+    Copy URL
+
+    and click **Asset Explorer** (under Visualization). The Asset Explorer
     displays the defined assets.
 
-  >   Note: Click on the icons to toggle between the card and table views of the
-  >   assets.
+>   Note: Click on the icons to toggle between the card and table views of the
+>   assets.
 
-    ![](images/CopyUrlLink.png?raw=true)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![](images/CopyUrlLink.png?raw=true)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  >   A picture containing clock Description automatically generated
+>   A picture containing clock Description automatically generated
 
-3.  Scan through the assets and identify any assets with a yellow or red dot.
+1.  Scan through the assets and identify any assets with a yellow or red dot.
 
-  >   A yellow dot indicates ...
+>   A yellow dot indicates ...
 
-  >   Note: Use the Search box to filter the list of assets displayed.
+>   Note: Use the Search box to filter the list of assets displayed.
 
-    ![](media/2eea234ef83425d3379c915a67938949.png)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![](media/2eea234ef83425d3379c915a67938949.png)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 >   A screenshot of a cell phone Description automatically generated
 
-4.  Click on the asset to open the Asset Details pane and display the asset’s
+1.  Click on the asset to open the Asset Details pane and display the asset’s
     attributes.
 
 >   Attributes are metadata associated with the asset.
 
-![](media/689edf152890f72ecef125ccc2870950.png)
-
 >   A screenshot of a cell phone Description automatically generated
 
-5.  Click the **Measurements** tab.
+1.  Click the **Measurements** tab.
 
 >   The Asset Details pane displays the following:
 
@@ -58,24 +70,22 @@ Procedure
 
 -   A trend of the selected measurements.
 
-![](media/53dd76adfe9b80adcbef8e8efa44082d.png)
-
 >   A screenshot of a cell phone Description automatically generated
 
-6.  Select one or more of the measurements which you think might be the cause
+1.  Select one or more of the measurements which you think might be the cause
     for the warning.
 
-7.  Review the history of the selected measurements in the trend to see if the
+2.  Review the history of the selected measurements in the trend to see if the
     data suggests you have identified a potential cause. The trend shows the
     measurements for the last 8-hour period.
 
-8.  Click the **View full trend** icon
+3.  Click the **View full trend** icon
 
-    ![](media/dcbf072a3ceb5b2d953cea2852edb128.png)
+-   to see the Trend page.
 
-    to see the Trend page.
+A screenshot of a cell phone Description automatically generated
 
-![A screenshot of a cell phone Description automatically generated](media/6e4e004b190e1594b16856cd923b794e.png)
+A screenshot of a cell phone Description automatically generated
 
 >   Note the following:
 
@@ -91,18 +101,14 @@ Procedure
 
 >   Click on the
 
-![](media/0a1af5684e5185c31616b5b029ce9015.png)
-
 >   icon to toggle through the views.
 
 -   The Legend table shows the statistics for each trace.
 
-9.  Click on a trace to select it.
+1.  Click on a trace to select it.
 
 >   The trace is highlighted, and two cursors automatically mark the minimum and
 >   maximum values for the displayed time range.
-
-![](media/e9e5c04d454b8b456113149dcce53cdc.png)
 
 >   A picture containing row, many, bunch, group Description automatically
 >   generated
@@ -110,17 +116,20 @@ Procedure
 >   Click the plus sign (+) above the trace to lock the cursor in place. The “+”
 >   turns into an “x.” Click the “x” to unlock the cursor.
 
-10.  Click **Step backward** to move the time range 8 hours back or **Step
+1.  Click **Step backward** to move the time range 8 hours back or **Step
     forward** to move it 8 hours forward.
-
-![](media/c77255e15da02b42035694fba4abc638.png)
 
 >   A screenshot of a cell phone Description automatically generated
 
-11.  Click the link
+1.  Click the link
 
-    ![](media/fd189a762748d8375f18cedbe35c0a6e.png)
-
-    in the menu bar to copy the URL of the workspace.
+-   in the menu bar to copy the URL of the workspace.
 
 >   You can share it in an email with a colleague as necessary.
+
+| Heading 1 | Heading 2 | Heading 3                                                     |
+|-----------|-----------|---------------------------------------------------------------|
+| Text 1    | Text 2    | Text 3                                                        |
+| TypeID    | String    | The SdsType Identifier of the type to be used for this stream |
+| Id        | String    | An identifier for referencing the stream                      |
+| Name      | String    | Friendly name                                                 |
