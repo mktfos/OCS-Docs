@@ -127,9 +127,3 @@ A screenshot of a cell phone Description automatically generated
 
 >   You can share it in an email with a colleague as necessary.
 
-| Heading 1 | Heading 2 | Heading 3                                                     |
-|-----------|-----------|---------------------------------------------------------------|
-| Text 1    | Text 2    | Text 3                                                        |
-| TypeID    | String    | The SdsType Identifier of the type to be used for this stream |
-| Id        | String    | An identifier for referencing the stream                      |
-| Name      | String    | Friendly name                                                 |
