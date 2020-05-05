@@ -17,6 +17,10 @@ who can follow up on the problem.
 
 This is my May 5, 2020 test. lowercase .png file names. lowercase images folder name
 
+I copied Ji Won's image to my images folder and I am now referencing it here.
+ 
+![Navigation icon](images\icon_navigation_bigger.png)
+
 The following procedure describes how you use the OCS visualization tools to
 perform remote operations monitoring.
 
