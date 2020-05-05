@@ -13,9 +13,9 @@ measurements to identify possible causes, reviews the history of these
 measurements over time, and shares the information with colleagues in the field
 who can follow up on the problem.
 
-![Copy URL](media/fd189a762748d8375f18cedbe35c0a6e.png)
+![Copy URL](images\copy_url_link.png)
 
-Copy URL
+This is my May 5, 2020 test. lowercase .png file names. lowercase images folder name
 
 The following procedure describes how you use the OCS visualization tools to
 perform remote operations monitoring.
