@@ -18,42 +18,31 @@ Procedure
 
 1.  Log in to OSIsoft Cloud Services.
 
-2.  Click the navigation icon
-
-    ![](..\Documentation\images\icon_navigation_bigger.png)
-
->   and click **Asset Explorer** (under Visualization). The Asset Explorer
->   displays the defined assets.
+2.  Click the navigation icon ![](..\Documentation\images\icon_navigation_bigger.png) and click **Asset Explorer** (under Visualization). The Asset Explorer
+    displays the defined assets.
 
 1.  Scan through the assets and identify any assets with a yellow or red dot.
-    <img src=https://localhost:8080/OCS_DOCS/Content_Portal/Documentation/images/Attributes.png">
 
-![](..\Documentation\images\Assets.png)
+    ![](..\Documentation\images\Assets.png)
 
->   A screenshot of a cell phone Description automatically generated
+    A yellow dot indicates ...
 
-A yellow dot indicates ...
-
-Note: Use the Search box to filter the list of assets displayed.
+    Note: Use the Search box to filter the list of assets displayed.
 
 1.  Click on the asset to open the Asset Details pane and display the asset’s
     attributes.
 
-![](..\Documentation\images\Attributes.png)
+    ![](..\Documentation\images\Attributes.png)
 
->   A screenshot of a cell phone Description automatically generated
-
-Attributes are metadata associated with the asset.
+    Attributes are metadata associated with the asset.
 
 1.  Click the **Measurements** tab.
 
-![A picture containing row, many, bunch, group Description automatically generated](..\Documentation\images\Details pane.png)
+    The Asset Details pane displays the following:
 
-The Asset Details pane displays the following:
+    -   Data associated with the asset. These values are updated in real time.
 
--   Data associated with the asset. These values are updated in real time.
-
--   A trend of the selected measurements.
+    -   A trend of the selected measurements.
 
 | Heading 1 | Heading 2                            | Heading 3                            |
 |-----------|--------------------------------------|--------------------------------------|
