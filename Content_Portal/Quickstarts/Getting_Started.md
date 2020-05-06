@@ -13,13 +13,6 @@ measurements to identify possible causes, reviews the history of these
 measurements over time, and shares the information with colleagues in the field
 who can follow up on the problem.
 
-![Copy URL](..\images\copy_url_link.png)
-
-I renamed the \Documentation\images folder. Then I created a link to my images folder.
-
-The following procedure describes how you use the OCS visualization tools to
-perform remote operations monitoring.
-
 Procedure
 ---------
 
@@ -27,49 +20,46 @@ Procedure
 
 2.  Click the navigation icon
 
+    ![](media/c9bb4358b932e28c84c040cf803f4875.png)
 
-    Copy URL
-
-    and click **Asset Explorer** (under Visualization). The Asset Explorer
-    displays the defined assets.
-
->   Note: Click on the icons to toggle between the card and table views of the
->   assets.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-![](images/CopyUrlLink.png?raw=true)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
->   A picture containing clock Description automatically generated
+>   and click **Asset Explorer** (under Visualization). The Asset Explorer
+>   displays the defined assets.
 
 1.  Scan through the assets and identify any assets with a yellow or red dot.
 
->   A yellow dot indicates ...
-
->   Note: Use the Search box to filter the list of assets displayed.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ![](media/2eea234ef83425d3379c915a67938949.png)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 >   A screenshot of a cell phone Description automatically generated
+
+A yellow dot indicates ...
+
+Note: Use the Search box to filter the list of assets displayed.
 
 1.  Click on the asset to open the Asset Details pane and display the asset’s
     attributes.
 
->   Attributes are metadata associated with the asset.
+![](media/689edf152890f72ecef125ccc2870950.png)
 
 >   A screenshot of a cell phone Description automatically generated
 
+Attributes are metadata associated with the asset.
+
 1.  Click the **Measurements** tab.
 
->   The Asset Details pane displays the following:
+![A picture containing row, many, bunch, group Description automatically generated](media/e9e5c04d454b8b456113149dcce53cdc.png)
+
+The Asset Details pane displays the following:
 
 -   Data associated with the asset. These values are updated in real time.
 
 -   A trend of the selected measurements.
 
->   A screenshot of a cell phone Description automatically generated
+| Heading 1 | Heading 2                            | Heading 3                            |
+|-----------|--------------------------------------|--------------------------------------|
+| Text1     | Text                                 | A trend of the selected measurements |
+| Text      | Text                                 | A trend of the selected measurements |
+| Text      | Text                                 | A trend of the selected measurements |
+| Text      | A trend of the selected measurements | A trend of the selected measurements |
 
 1.  Select one or more of the measurements which you think might be the cause
     for the warning.
@@ -125,4 +115,3 @@ A screenshot of a cell phone Description automatically generated
 -   in the menu bar to copy the URL of the workspace.
 
 >   You can share it in an email with a colleague as necessary.
-
