@@ -13,9 +13,9 @@ measurements to identify possible causes, reviews the history of these
 measurements over time, and shares the information with colleagues in the field
 who can follow up on the problem.
 
-![Copy URL](..\Documentation\images\copy_url_link.png)
+![Copy URL](..\images\copy_url_link.png)
 
-I copied my image file to ..\Documentation\images\copy_url_link.png. And I'm referencing it here.
+I renamed the \Documentation\images folder. Then I created a link to my images folder.
 
 The following procedure describes how you use the OCS visualization tools to
 perform remote operations monitoring.
