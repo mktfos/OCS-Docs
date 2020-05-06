@@ -13,13 +13,9 @@ measurements to identify possible causes, reviews the history of these
 measurements over time, and shares the information with colleagues in the field
 who can follow up on the problem.
 
-![Copy URL](images\copy_url_link.png)
+![Copy URL](..\Documentation\images\copy_url_link.png)
 
-This is my May 5, 2020 test. lowercase .png file names. lowercase images folder name
-
-I copied Ji Won's image to my images folder and I am now referencing it here.
- 
-![Navigation icon](images\icon_navigation_bigger.png)
+I copied my image file to ..\Documentation\images\copy_url_link.png. And I'm referencing it here.
 
 The following procedure describes how you use the OCS visualization tools to
 perform remote operations monitoring.
@@ -31,7 +27,6 @@ Procedure
 
 2.  Click the navigation icon
 
-![Copy URL](media/fd189a762748d8375f18cedbe35c0a6e.png)
 
     Copy URL
 
