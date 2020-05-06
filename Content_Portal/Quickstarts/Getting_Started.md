@@ -20,14 +20,14 @@ Procedure
 
 2.  Click the navigation icon
 
-    ![](media/c9bb4358b932e28c84c040cf803f4875.png)
+    ![](..\Documentation\images\icon_navigation_bigger.png)
 
 >   and click **Asset Explorer** (under Visualization). The Asset Explorer
 >   displays the defined assets.
 
 1.  Scan through the assets and identify any assets with a yellow or red dot.
 
-![](media/2eea234ef83425d3379c915a67938949.png)
+![](..\Documentation\images\Assets.png)
 
 >   A screenshot of a cell phone Description automatically generated
 
@@ -38,7 +38,7 @@ Note: Use the Search box to filter the list of assets displayed.
 1.  Click on the asset to open the Asset Details pane and display the asset’s
     attributes.
 
-![](media/689edf152890f72ecef125ccc2870950.png)
+![](..\Documentation\images\Attributes.png)
 
 >   A screenshot of a cell phone Description automatically generated
 
@@ -46,7 +46,7 @@ Attributes are metadata associated with the asset.
 
 1.  Click the **Measurements** tab.
 
-![A picture containing row, many, bunch, group Description automatically generated](media/e9e5c04d454b8b456113149dcce53cdc.png)
+![A picture containing row, many, bunch, group Description automatically generated](..\Documentation\images\Details pane.png)
 
 The Asset Details pane displays the following:
 
