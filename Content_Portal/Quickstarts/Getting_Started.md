@@ -26,6 +26,7 @@ Procedure
 >   displays the defined assets.
 
 1.  Scan through the assets and identify any assets with a yellow or red dot.
+    <img src=https://localhost:8080/OCS_DOCS/Content_Portal/Documentation/images/Attributes.png">
 
 ![](..\Documentation\images\Assets.png)
 
