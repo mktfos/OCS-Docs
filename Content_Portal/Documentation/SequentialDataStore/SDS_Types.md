@@ -243,6 +243,9 @@ the ``Primary Index``, set the ``IsKey`` to true.
 
 The type is created with the following parameters. SdsTypeBuilder automatically generates 
 unique identifiers. Note that the following table contains only a partial list of fields.
+<details>
+  <summary><b>List of Fields</b></summary>
+  <pre>
 
 | Field            | Values                  |             |                                      |
 |------------------|-------------------------|-------------|--------------------------------------|
@@ -300,6 +303,9 @@ unique identifiers. Note that the following table contains only a partial list o
 |                  | Value                   | null                                               |
 
 
+  </pre>
+  </details>
+
 The SdsTypeBuilder also supports derived types. Note that you need not add the base types to 
 the SDS before using SdsTypeBuilder. Base types are maintained within the type.
 
@@ -311,7 +317,7 @@ Samples in other languages can also be found on [GitHub](https://github.com/osis
 
 SdsType, SdsTypeProperty, and SdsTypeCode are defined in the code snippets shown here:
 <details>
-  <summary>Python</summary>
+  <summary><b>Python</b></summary>
   <pre>
 
 **Python**
@@ -393,6 +399,10 @@ class SdsType(object):
 
 </pre>
   </details>
+<details>
+  <summary><b>JavaScript</b></summary>
+  <pre>
+
 
 **JavaScript**
 ```javascript
@@ -438,8 +448,13 @@ SdsType: function (SdsType) {
     }
 },
 ```
+</pre>
+  </details>
 
 These are the types we are working with in Python and JavaScript classes:
+<details>
+  <summary><b>Python</b></summary>
+  <pre>
 
 **Python**
 ```python
@@ -467,6 +482,11 @@ class Simple(object):
     def setMeasurement(self, measurement):
         self.__measurement = measurement
 ```
+</pre>
+  </details>
+<details>
+  <summary><b>JavaScript</b></summary>
+  <pre>
 
 **JavaScript**
 ```javascript
@@ -484,7 +504,13 @@ var Simple = function () {
 }
 ```
 
+</pre>
+  </details>
+
 These are the types defined in Python and JavaScript:
+<details>
+  <summary><b>Python</b></summary>
+  <pre>
 
 **Python**
 ```python
@@ -538,6 +564,11 @@ simpleType.Description = "Basic sample type"
 simpleType.SdsTypeCode = SdsTypeCode.Object
 simpleType.Properties = [ time ]
 ```
+  </pre>
+  </details>
+<details>
+  <summary><b>JavaScript</b></summary>
+  <pre>
 
 **JavaScript**
 ```javascript
@@ -592,6 +623,8 @@ var simpleType = new SdsObjects.SdsType({
     "Properties": [timeProperty, stateProperty, measurementProperty]
 });
 ```
+</pre>
+  </details>
 
 Working with a derived class is easy. For example, this is a derived class:
 
