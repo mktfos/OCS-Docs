@@ -41,7 +41,10 @@ SdsTypes that define [Properties](#sdstypeproperty) or base types are contained 
 ## SdsType fields and properties table
 The table below lists required and optional fields in an SdsType. Fields that are not included are reserved for internal SDS use.
 For limitations on search, see [Search in SDS](xref:sdsSearching).
+<details>
+  <summary><b>Sds Fields</b></summary>
 <a name="typepropertiestable"></a>
+
 | Property          | Type                   | Optionality | Searchable | Details |
 |-------------------|------------------------|-------------|---------|---------|
 | Id                | String                 | Required    | Yes | Identifier for referencing the type |
@@ -51,6 +54,8 @@ For limitations on search, see [Search in SDS](xref:sdsSearching).
 | InterpolationMode | SdsInterpolationMode   | Optional    | No | Interpolation setting of the type. Default is Continuous. For more information, see [Interpolation](xref:sdsReadingData#interpolation).|
 | ExtrapolationMode | SdsExtrapolationMode   | Optional    | No | Extrapolation setting of the type. For more information, see [Extrapolation](xref:sdsReadingData#extrapolation). |
 | Properties        | IList\<SdsTypeProperty\> | Required    | Yes, with limitations | List of SdsTypeProperty items. See [SdsTypeProperty](#sdstypeproperty) below.  |
+
+</details>
 
 ### Rules for the Type Identifier (SdsType.Id)
 1. Is not case sensitive
@@ -76,9 +81,10 @@ Atomic types do not need other fields to define the type.
 Types that require additional definition, such as enums and objects, are identified using a generic 
 SdsTypeCode, such as ByteEnum, Int32Enum, NullableInt32Enum, or Object, plus additional SdsTypeProperty fields.
 
-**Supported Types**
 
 The following types are supported and defined by the SdsTypeCode:
+<details>
+  <summary><b>Supported Types</b></summary>
 
 Type                    | SdsTypeCode
 ----------------------- | -----
@@ -161,11 +167,16 @@ UInt64Enum              | 612
 Version                 | 22
 VersionArray            | 222
 
+</details>
+
 ## SdsTypeProperty
 The Properties collection defines the fields in a type. 
 
 The following table shows the required and optional SdsTypeProperty fields. Fields that 
 are not included are reserved for internal SDS use.
+Testing collapsible tables--tricky!
+<details>
+  <summary><b>SdsTypeProperty fields</b></summary>
 
 |          Property         | Type                    | Optionality | Details |
 |---------------------------|-------------------------|-------------|---------|
@@ -178,6 +189,8 @@ are not included are reserved for internal SDS use.
 | Order                     | Int                     | Optional    | Order of comparison within a compound index |
 | InterpolationMode         | SdsInterpolationMode    | Optional    | Interpolation setting of the property. Default is null. |
 | Uom                       | String                  | Optional    | Unit of Measure of the property |
+
+</details>
 
 The SdsTypeProperty's identifier follows the same [rules](#typepropertiestable) as the SdsType's identifier.
 
@@ -215,6 +228,10 @@ potential errors that can occur when working with types manually.
 
 There are several ways to work with the builder. The most convenient is to use the static 
 methods, as shown here:
+<details>
+  <summary><b>example</b></summary>
+  <pre>
+
 ```csharp
 public enum State
 {
@@ -236,6 +253,8 @@ simpleType.Id = "Simple";
 simpleType.Name = "Simple";
 simpleType.Description = "Basic sample type";
 ```
+  </pre>
+  </details>
 
 SdsTypeBuilder recognizes the ``System.ComponentModel.DataAnnotations.KeyAttribute`` and 
 its own ``OSIsoft.Sds.SdsMemberAttribute``. When using the ``SdsMemberAttribute`` to specify 
@@ -244,8 +263,7 @@ the ``Primary Index``, set the ``IsKey`` to true.
 The type is created with the following parameters. SdsTypeBuilder automatically generates 
 unique identifiers. Note that the following table contains only a partial list of fields.
 <details>
-  <summary><b>List of Fields</b></summary>
-  <pre>
+  <summary><b>SdsTypeProperty fields (?)</b></summary>
 
 | Field            | Values                  |             |                                      |
 |------------------|-------------------------|-------------|--------------------------------------|
@@ -303,8 +321,7 @@ unique identifiers. Note that the following table contains only a partial list o
 |                  | Value                   | null                                               |
 
 
-  </pre>
-  </details>
+ </details>
 
 The SdsTypeBuilder also supports derived types. Note that you need not add the base types to 
 the SDS before using SdsTypeBuilder. Base types are maintained within the type.
@@ -640,6 +657,10 @@ class Derived(Simple):
 
 Extend the above SdsType as follows:
 
+<details>
+  <summary><b>Python</b></summary>
+  <pre>
+
 **Python**
 ```python
 # Observation property is a simple non-indexed, standard data type
@@ -660,6 +681,11 @@ derived.BaseType = simpleType # Set the base type to the derived type
 derived.SdsTypeCode = SdsTypeCode.Object
 derived.Properties = [ observation ]
 ```
+</pre>
+  </details>
+<details>
+  <summary><b>JavaScript</b></summary>
+  <pre>
 
 **JavaScript**
 ```javascript
@@ -680,11 +706,17 @@ var derivedType = new SdsObjects.SdsType({
     "Properties": [ observationProprety ]
 });
 ```
+</pre>
+  </details>
 
 ## Type Reusability
 Types can also refer other types by using their identifiers. This enables type re-usability.
 For example, if there is a common index and value property for a group of types that may have additional properties,
 a base type can be created with those properties.
+
+<details>
+  <summary><b>example</b></summary>
+  <pre>
 
 ```json
 {
@@ -710,9 +742,15 @@ a base type can be created with those properties.
     ]
 }
 ```
+</pre>
+  </details>
 
 If a new type should be created with properties in addition to the ones shown above,
 a reference to the base type can be added by simply specifying the base type's ``Id``.
+
+<details>
+  <summary><b>example</b></summary>
+  <pre>
 
 ```json
 {
@@ -733,8 +771,13 @@ a reference to the base type can be added by simply specifying the base type's `
     ]
 }
 ```
+  </pre>
+</details>
 
 The new type may also include the full type definition of the reference type instead of specifying only the ``Id`` as shown below:
+<details>
+  <summary><b>example</b></summary>
+  <pre>
 
 ```json
 {
@@ -774,6 +817,8 @@ The new type may also include the full type definition of the reference type ins
     ]
 }
 ```
+  </pre>
+</details>
 
 If the full definition is sent, the referenced types (base type "Simple" in the above example)
 should match the actual type that was initially created. If the full definition is sent and the referenced types do not exist,
@@ -787,6 +832,10 @@ with a valid index type as described in the [Indexes](xref:sdsIndexes) section.
 The index property may also be in the base type as shown in the example above.
 
 This works seamlessly when using any programming language, using .NET for example:
+
+<details>
+  <summary><b>.NET example</b></sample>
+  <pre>
 
 ```csharp
 
@@ -817,6 +866,9 @@ windShieldType.Id = "WindShield";
 windShieldType.BaseType.Id = "Basic";
 
 ```
+
+  </pre>
+</details>
 
 Note that if necessary, the base type's Id can also be changed to be more meaningful.
 
@@ -856,6 +908,10 @@ The response includes a status code and a response body.
 
 ##### Response body  
 The requested SdsType
+
+<details>
+  <summary><b>Example response body</b></summary>
+  <pre>
 
 ##### Example response body 
 ```json
@@ -912,6 +968,8 @@ Content-Type: application/json
     ]
 }
 ```
+  </pre>
+</details>
 
 #### .NET libraries client methods
 ```csharp
@@ -946,6 +1004,10 @@ The response includes a status code and a response body.
 ##### Response body  
 A dictionary mapping object name to number of references.
 
+<details>
+  <summary><b>Example response body</b></summary>
+  <pre>
+
 ##### Example response body 
 ```json
     {
@@ -954,6 +1016,8 @@ A dictionary mapping object name to number of references.
         "SdsType": 1
     }
 ```
+  </pre>
+</details>
 
 #### .NET libraries client methods
 ```csharp
@@ -1006,6 +1070,9 @@ The response includes a status code and a response body.
 
 ##### Response body  
 A collection of zero or more SdsTypes
+<details>
+  <summary><b>Example response body</b></summary>
+  <pre>
 
 ##### Example response body 
 ```json
@@ -1066,6 +1133,8 @@ Content-Type: application/json
 ]
 ```
 
+  </pre>
+</details>
 
 #### .NET libraries client methods
 ```csharp
@@ -1111,6 +1180,10 @@ The type identifier. The identifier must match the `SdsType.Id` field in the req
 
 ##### Request Body 
 The request content is the serialized SdsType.
+
+<details>
+  <summary><b>example</b></summary>
+  <pre>
 
 Example SdsType content:
 ```json
@@ -1164,12 +1237,18 @@ Example SdsType content:
     ]
 }
 ```
+  </pre>
+</details>
 
 #### Response  
 The response includes a status code and a response body.
 
 ##### Response body  
 The request content is the serialized SdsType. If you are not using the SDS Client Libraries, it is recommended that you use JSON.
+
+<details>
+  <summary><b>Example response body</b></summary>
+  <pre>
 
 ##### Example response body 
 ```json
@@ -1304,6 +1383,8 @@ Content-Type: application/json
     "ExtrapolationMode": 0
 }
 ```
+  </pre>
+</details>
 
 #### .NET libraries client methods
 ```csharp
