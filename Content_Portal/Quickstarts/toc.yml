@@ -6,5 +6,7 @@
   topicHref: Using_the_API_Console.md
 - name: Image Text
   topicHref: ImageTest2.md
+- name: Getting Started (Writage version)
+  topicHref: GS_Writage_ver.md
 - name: Writage Test
   topicHref: Writage Test.md
