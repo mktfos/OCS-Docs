@@ -834,7 +834,7 @@ The index property may also be in the base type as shown in the example above.
 This works seamlessly when using any programming language, using .NET for example:
 
 <details>
-  <summary><b>.NET example</b></sample>
+  <summary><b>.NET example</b></summary>
   <pre>
 
 ```csharp
