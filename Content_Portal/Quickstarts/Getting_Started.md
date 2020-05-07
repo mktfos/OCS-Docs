@@ -44,12 +44,12 @@ Procedure
 
     -   A trend of the selected measurements.
 
-| Heading 1 | Heading 2                            | Heading 3                            |
-|-----------|--------------------------------------|--------------------------------------|
-| Text1     | Text                                 | A trend of the selected measurements |
-| Text      | Text                                 | A trend of the selected measurements |
-| Text      | Text                                 | A trend of the selected measurements |
-| Text      | A trend of the selected measurements | A trend of the selected measurements |
+    | Heading 1 | Heading 2                            | Heading 3                            |
+    |-----------|--------------------------------------|--------------------------------------|
+    | Text1     | Text                                 | A trend of the selected measurements |
+    | Text      | Text                                 | A trend of the selected measurements |
+    | Text      | Text                                 | A trend of the selected measurements |
+    | Text      | A trend of the selected measurements | A trend of the selected measurements |
 
 1.  Select one or more of the measurements which you think might be the cause
     for the warning.

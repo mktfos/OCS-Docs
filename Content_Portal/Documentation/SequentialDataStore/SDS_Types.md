@@ -310,6 +310,9 @@ SdsTypes must be built manually when .NET SdsTypeBuilder is unavailable. Below, 
 Samples in other languages can also be found on [GitHub](https://github.com/osisoft/OCS-Samples/tree/master/basic_samples).
 
 SdsType, SdsTypeProperty, and SdsTypeCode are defined in the code snippets shown here:
+<details>
+  <summary>Python</summary>
+  <pre>
 
 **Python**
 ```python
@@ -386,6 +389,10 @@ class SdsType(object):
         self.__properties = properties
 ```
 
+  
+
+</pre>
+  </details>
 
 **JavaScript**
 ```javascript
