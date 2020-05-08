@@ -13,29 +13,32 @@ measurements to identify possible causes, reviews the history of these
 measurements over time, and shares the information with colleagues in the field
 who can follow up on the problem.
 
+The following procedure describes how to use the OCS Portal to monitor your assets and quickly identify problems. The screen captures are taken from the scenario described in the example above.
+
 Procedure
 ---------
 
 1.  Log in to OSIsoft Cloud Services.
 
-2.  Click the navigation icon ![](..\Documentation\images\icon_navigation_bigger.png) and click **Asset Explorer** (under Visualization). The Asset Explorer
-    displays the defined assets.
+2.  Click the navigation icon ![](..\Documentation\images\icon_navigation_bigger.png) and click **Asset Explorer** (under Visualization). 
+    
+    The Asset Explorer displays the available assets. In this example, it provides an overview of the health of the fleet of trucks.
 
     Note: Click on the icons to toggle between the card and table views of the assets.
     ![Card/Table View](..\Documentation\images\AssetEditor_icons.png)
 
-1.  Scan through the assets and identify any assets with a yellow or red dot.
+1.  Scan through the assets and identify any assets with a problematic status.
     
-    A yellow dot indicates a warning message.
+    <<Writer's Note: I will add a table here with the icons and their meaning.>>
     
     Note: Use the Search box to filter the list of assets displayed.
+
     ![](..\Documentation\images\Assets.png)
 
 
-1.  Click on the asset to open the Asset Details pane and display the asset’s
-    attributes.
+1.  Click on the asset to open the Asset Details pane.
 
-    Attributes are metadata associated with the asset.
+    The Asset Details pane provides attribute and measurement data on the asset that you can use to determine the cause of any problems. Attributes are metadata associated with the asset.
 
     ![Asset Attributes](..\Documentation\images\Attributes.png)
  
@@ -47,26 +50,27 @@ Procedure
 
     -   A trend of the selected measurements.
 
-       ![Details pane](..\Documentation\images\Details_pane.png)
+    ![Details pane](..\Documentation\images\Details_pane.png)
 
 1.  Select one or more of the measurements which you think might be the cause
     for the warning.
 
 2.  Review the history of the selected measurements in the trend to see if the
-    data suggests you have identified a potential cause. The trend shows the
-    measurements for the last 8-hour period.
+    data suggests you have identified a potential cause. 
 
-3.  Click the **View full trend** ![View full trend icon](..\Documentation\images\View_full_trend_icon.png) icon to see the Trend page.
+    By default, the trend shows the measurements for the last 8-hour period. Click the arrow to pick another time-range option or specify a custom time range.
+
+3.  To delve further into the details of these measurements, click the **View full trend** ![View full trend icon](..\Documentation\images\View_full_trend_icon.png) icon to see the Trend page.
 
     ![View full trend](..\Documentation\images\Trend_full_display.png)
 
     Note the following:
 
-    -   The Trend page shows the measurements for the same 8-hour time range.
+    -   The Trend page shows the measurements for the same time range shown in the Details pane of the Asset Editor.
 
     -   There are three views of the trend:
 
-        -   Stacked mode – Each trend is displayed in its own trend.
+        -   Stacked mode – Each trace is displayed in its own trend.
 
         -   Single-scale mode – All measurements are plotted on the same scale.
 
@@ -74,9 +78,15 @@ Procedure
 
     Click on the ![Trend views icon](..\Documentation\images\Trend_views_icon.png)icon to toggle through the views.
 
-    -   The Legend table shows the statistics for each trace.
+    The Legend table shows the legend for each trace, the last value, minimum, maximum, and average values in the displayed time range.
 
-1.  Click on a trace to select it.
+1.  The time the error occurred may not be in the time range currently in view. Click **Step backward** or **Step forward** to move the time range backward or forward.
+
+    The trace will move in increments shown. If the trend displays the last 12 hours, **Step backward** shows the previous 12-hour period. If it displays the last 30 days, **Step forward** shows the next 30-day period.
+
+    ![Step back and step forward](..\Documentation\images\Step_back_forward.png)
+
+1.  Click on a trace to select it for further analysis.
 
     The trace is highlighted, and two cursors automatically mark the minimum and maximum values for the displayed time range.
 
@@ -84,11 +94,9 @@ Procedure
 
     Click the plus sign (+) above the trace to lock the cursor in place. The “+” turns into an “x.” Click the “x” to unlock the cursor.
 
-1.  Click **Step backward** to move the time range 8 hours back or **Step
-    forward** to move it 8 hours forward.
+1.  Add other cursors at data points of interest.
 
-    ![Step back and step forward](..\Documentation\images\Step_back_forward.png)
 
 1.  Click the link icon ![Copy link icon](..\Documentation\images\copy_url_link.png) in the menu bar to copy the URL of the workspace.
 
-    You can share it in an email with a colleague as necessary.
+    This link, shared with colleagues, gives them the same view of the trend and they can use this to troubleshoot problems.
