@@ -29,16 +29,22 @@ Procedure
 
 1.  Scan through the assets and identify any assets with a problematic status.
     
-    <<Writer's Note: I will add a table here with the icons and their meaning.>>
-    
     Note: Use the Search box to filter the list of assets displayed.
 
     ![](..\Documentation\images\Assets.png)
 
+    Each asset is identified with one of the following statuses:
+
+    | Icon   | Status  |
+    |--------|---------|
+    | Green  | Good    |
+    | Yellow | Warning |
+    | Red    | Bad     |
+
 
 1.  Click on the asset to open the Asset Details pane.
 
-    The Asset Details pane provides attribute and measurement data on the asset that you can use to determine the cause of any problems. Attributes are metadata associated with the asset.
+    The Asset Details pane provides attribute and measurement data on the asset that you can use to determine the cause of any problems. The Attributes tab displays metadata associated with the asset.
 
     ![Asset Attributes](..\Documentation\images\Attributes.png)
  
@@ -60,6 +66,8 @@ Procedure
 
     By default, the trend shows the measurements for the last 8-hour period. Click the arrow to pick another time-range option or specify a custom time range.
 
+    ![Time Range options](..\Documentation\images\Time_Range_options.png)
+
 3.  To delve further into the details of these measurements, click the **View full trend** ![View full trend icon](..\Documentation\images\View_full_trend_icon.png) icon to see the Trend page.
 
     ![View full trend](..\Documentation\images\Trend_full_display.png)
@@ -80,9 +88,11 @@ Procedure
 
     The Legend table shows the legend for each trace, the last value, minimum, maximum, and average values in the displayed time range.
 
-1.  The time the error occurred may not be in the time range currently in view. Click **Step backward** or **Step forward** to move the time range backward or forward.
+    ![Legend Table](..\Documentation\images\Legend_Table_Med.png)
 
-    The trace will move in increments shown. If the trend displays the last 12 hours, **Step backward** shows the previous 12-hour period. If it displays the last 30 days, **Step forward** shows the next 30-day period.
+1.  The error may not have occurred in the time range currently in view. Click **Step backward** or **Step forward** to move the time range backward or forward.
+
+    The trace will move in increments of time that are displayed in the trend. If the trend displays the last 12 hours, **Step backward** shows the previous 12-hour period. If it displays the last 30 days, **Step forward** shows the next 30-day period.
 
     ![Step back and step forward](..\Documentation\images\Step_back_forward.png)
 
@@ -99,4 +109,4 @@ Procedure
 
 1.  Click the link icon ![Copy link icon](..\Documentation\images\copy_url_link.png) in the menu bar to copy the URL of the workspace.
 
-    This link, shared with colleagues, gives them the same view of the trend and they can use this to troubleshoot problems.
+    This link, shared with colleagues, gives them the same view of the trend that they can then use to troubleshoot problems.
